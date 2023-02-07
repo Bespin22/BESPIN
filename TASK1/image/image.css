@@ -1,0 +1,23 @@
+body{
+    background: rgb(163, 127, 127);
+}
+h2{
+    color: rgb(206, 82, 82);
+    text-align: center;
+    font-family: Cambria;
+}
+img{
+    position: absolute;
+    top: 70px;
+    right: 10px;
+}
+.div1{
+    display:flex;
+    margin-bottom: -30px;
+}
+.div11{
+    width:80%;  
+}
+.div12{
+    width: 20%;
+}
