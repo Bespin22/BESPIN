@@ -1,3 +1,27 @@
 body{
-    background: black;
+    background: rgb(233, 229, 229);
+}
+h1{
+    color: rgb(204, 50, 50);
+    font-family: 'Times New Roman';
+}
+h2{
+    color: rgb(110, 49, 42);
+    font-family: 'Gill Sans';
+}
+h3{
+    color: rgb(44, 28, 28);
+    font-family: 'Courier New';
+}
+h4{
+    color: rgb(97, 43, 197);
+    font-family:  'MS Trebuchet';
+}
+h5{
+    color: rgb(204, 36, 140);
+    font-family:'Univers';
+}
+h6{
+    color: rgb(210, 224, 14);
+    font-family: 'Futura';
 }
