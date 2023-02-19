@@ -1,0 +1,55 @@
+body{
+    background-image: url('mandalas-1084082.jpg');
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color:black;
+}
+input{
+    background: transparent;
+    border:2px solid rgb(255, 255, 255); 
+    height:4vh;
+
+}
+select{
+    background: transparent;
+    border:2px solid rgb(255, 255, 255); 
+    height:5vh;
+}
+.gridmain {
+    display: grid;
+    grid-template-columns: auto  auto auto auto;
+    margin:0 5%;
+    padding:3%;
+    background-color: rgba(0, 255, 239, 0.9);
+  }
+  .grid{
+    padding-bottom: 4%;
+  }
+  .number, .city, .email, .address{
+        grid-column: 1 ;
+  }
+  .add{
+    grid-column:2/span 4;
+  }
+  
+  input[name="address"]{
+    width:96%;
+  }
+  .button{
+    padding-top:3px;
+    grid-column: 2 ;
+  }
+input[type="submit"]{
+    background-color: blue;
+    color:aliceblue;
+    border: 0 solid blue;
+    width:80px;
+  }
+input[type="reset"]{
+    background-color: rgb(204, 184, 9);
+    color:aliceblue;
+    border:0 solid  rgb(204, 184, 9);
+    width:80px;
+}
