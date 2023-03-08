@@ -1,0 +1,113 @@
+:root{
+    --background-color1:rgb(78, 78, 78);
+    --text-color1:rgb(255,255,255);
+}
+.header{
+    display: inline-flex;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--background-color1);
+    color: var(--text-color1);
+    gap: 70%;
+}
+.link{
+    margin-top: 35px;
+    margin-left: 10px;
+
+}
+.nav-bar{
+    display:inline-flex;
+    float: right;
+}
+.head-title{
+    margin-left: 10px;
+    
+}
+.right{
+    background-color: var(--background-color1);
+    color: var(--text-color1);
+    padding: 20px;
+}
+.card{
+    border: 2px solid var(--background-color1);
+}
+.title{
+    color: var(--text-color1);
+    height: 25px;
+    margin-top: 0%;
+    margin-left: 10px;
+}
+.para{
+    margin: 20px;
+}
+.header {grid-area: head;}
+.right {grid-area: right;}
+.main {grid-area: main;}
+.card-one{grid-area: one;}
+.card-two{grid-area: two;}
+.card-three{grid-area: three;}
+.card-four{grid-area: four;}
+.card-five{grid-area: five;}
+
+.container{
+    display: grid;
+    grid-template-areas:
+    'head head head head'
+    'main main main right'
+    'one two three right'
+    'four five unset right';
+    gap:11px;
+}
+.card-title{
+    background-color: var(--background-color1);
+    height: 25%;
+}
+@media only screen and (max-width:767px){
+    .grid-container{
+        display: grid;
+        grid-template-areas:
+        'head head head head'
+        'right right right right'
+        'main main main main'
+        'one one one one '
+        'two two two two'
+        'three three three three'
+        'four four four four'
+        'five five five five';
+    }
+    .header{
+        gap:30%;
+    }
+    .right,.main{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .card{
+        margin-left:60px ;
+        margin-right:60px ;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .grid-container{
+        display: grid;
+        grid-template-areas:
+        'head head'
+        'right right'
+        'main main'
+        'one two'
+        'three four'
+        'five unset'
+         ;
+
+    }
+         .right,.main{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .card{
+            margin-left:60px ;
+            margin-right:60px ;
+        }
+        .header{
+            gap:50%;
+        }
+    }

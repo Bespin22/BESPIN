@@ -1,0 +1,106 @@
+.container{
+    background-color: white;
+    display: grid;
+    gap: 10px;
+    width: 100%;
+  }
+  .one{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 10px;
+    overflow: hidden;
+  }
+  .red{
+    background-color: #F9546B;
+    height: 90px;
+  }
+  .brown{
+    background-color: brown;
+    height: 90px;
+  }
+  .two{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #FC7651;
+    height: 140px;
+  }
+  .three{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  .first-green{
+    background-color: #e6e21b;
+    height: 90px;
+  }
+  .light-pink{
+    background-color: pink;
+    height: 90px;
+  }
+  .second-green{
+    background-color: rgb(118, 167, 34);
+    height: 90px;
+  }
+  .four{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .gray{
+    background-color: gray;
+    height: 100px;
+  }
+  .light-green{
+    background-color: #42CFCA;
+    height: 100px;
+  }
+  .five{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  .third-green{
+    background-color: #25e054;
+    height: 50px;
+  }
+  .blue{
+    background-color: #0acca5;
+    height: 50px;
+  }
+  .black{
+    background-color: #ff0558;
+    height: 50px;
+  }
+  .violet{
+    background-color: blueviolet;
+    height: 50px;
+  }
+  .six{
+    display: grid;
+    gap: 10px;
+    background-color: #FFDB60;
+    height: 25px;
+  }
+  
+@media only screen and (min-width:501px) and (max-width:768px) {
+    .one{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .two{
+        grid-template-columns: 1fr;
+    }
+    .three{
+        grid-template-columns: 1fr;
+    }
+    .five{
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media only screen and (max-width:500px){
+    .container > *{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  }

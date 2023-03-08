@@ -1,75 +1,81 @@
 .colorbox {
-    background-color: aqua;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-left: 300px;
-    margin-right: 300px;
+  background-color: rgb(225, 234, 250);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.div1, .div3, .div4 {
+    height: 90px;
+    display: flex;
+    margin-bottom: 20px;
   }
-  .div1, .div3, .div4, .div5 {
-      height: 90px;
-      display: flex;
-      margin-bottom: 20px;
-    }
-  .div11 {
-    background: blue;
-    width: 30%;
+  .div5{
+    height: 45px;
+    display: flex;
+    margin-bottom: 20px;
+  }
+.div11 {
+  background: red;
+  width: 30%;
+  margin-right: 20px;
+}
+.div12 {
+  background: blue;
+  width: 70%;
+}
+.div2 {
+    height: 90px;
+    background:rgb(242, 213, 85);
+    margin-bottom: 20px;
+  }
+
+  .div31 {
+    background:green;
+    width: 33%;
     margin-right: 20px;
   }
-  .div12 {
-    background: green;
-    width: 70%;
+  .div32 {
+    background: purple;
+    width: 34%;
+    margin-right: 20px;
   }
-  .div2 {
-      height: 90px;
-      background:yellowgreen;
-      margin-bottom: 20px;
-    }
-  
-    .div31 {
-      background:purple;
-      width: 33%;
-      margin-right: 20px;
-    }
-    .div32 {
-      background: red;
-      width: 34%;
-      margin-right: 20px;
-    }
-    .div33 {
-      width:33%;
-      background:peru;
-    }
-    .div41 {
-      background:mediumvioletred;
-      width: 50%;
-      margin-right: 20px;
-    }
-    .div42 {
-      width:50%;
-      background:orange;
-    }
-    .div51 {
-      background: khaki;
-      width: 25%;
-      margin-right: 20px;
-    }
-    .div52 {
-      background:black;
-      width: 25%;
-      margin-right: 20px;
-    }
-    .div53 {
-      background:pink;
-      width: 25%;
-      margin-right: 20px;
-    }
-    .div54 {
-      width:25%;
-      background:darkcyan;
-    }
-    .div6 {
-      height: 20px;
-      background:salmon;
-    }
+  .div33 {
+    width:33%;
+    background:lightblue;
+  }
+  .div41 {
+    background:rgb(242, 116, 85);
+    width: 50%;
+    margin-right: 20px;
+  }
+  .div42 {
+    width:50%;
+    background:rgb(237, 242, 85);
+  }
+  .div51 {
+    background: khaki;
+    width: 25%;
+    margin-right: 20px;
+    height
+  }
+  .div52 {
+    background:black;
+    width: 25%;
+    margin-right: 20px;
+  }
+  .div53 {
+    background:pink;
+    width: 25%;
+    margin-right: 20px;
+  }
+  .div54 {
+    width:25%;
+    background:darkcyan;
+  }
+  .div6 {
+    height: 20px;
+    background:salmon;
+  }
